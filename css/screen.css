@@ -1,0 +1,11 @@
+img {
+    max-width: 100%;
+    margin: auto;
+    vertical-align: top;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 42em;
+    background: khaki;
+}

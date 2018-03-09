@@ -12,6 +12,18 @@ html {
     padding: 24px 24px 0;
 }
 
+body {
+    margin: 0 auto;
+    max-width: 42em;
+    background: khaki;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+    vertical-align: top;
+}
+
 ::-moz-selection {
     background: #E85E00;
     color: white;

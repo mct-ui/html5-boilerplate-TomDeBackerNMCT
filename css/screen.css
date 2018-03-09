@@ -86,6 +86,34 @@ blockquote * {
     line-height: inherit;
 }
 
+ul, ol {
+    padding-left: 24px;
+}
+
+li ul, li ol {
+    margin-bottom: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
+}
+
+a {
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: BlueViolet;
+}
+
+a:visited, a:active {
+    color: crimson;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

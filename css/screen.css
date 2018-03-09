@@ -1,11 +1,36 @@
-img {
-    max-width: 100%;
-    margin: auto;
-    vertical-align: top;
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #111;
+    padding: 24px 24px 0;
 }
 
-body {
-    margin: 0 auto;
-    max-width: 42em;
-    background: khaki;
+::-moz-selection {
+    background: #E85E00;
+    color: white;
+    text-shadow: none;
 }
+
+::selection {
+    background: #E85E00;
+    color: white;
+    text-shadow: none;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {}
+
+::selection {}

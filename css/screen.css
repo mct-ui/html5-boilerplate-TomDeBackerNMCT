@@ -15,7 +15,6 @@ html {
 body {
     margin: 0 auto;
     max-width: 42em;
-    background: khaki;
 }
 
 img {
@@ -112,6 +111,16 @@ a:hover, a:focus {
 
 a:visited, a:active {
     color: crimson;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 58px;
+        line-height: 64px;
+    }
+    html {
+        padding: 48px 48px 24px;
+    }
 }
 
 /*
